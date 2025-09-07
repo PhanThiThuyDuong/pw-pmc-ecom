@@ -1,0 +1,34 @@
+{
+    "common": {
+        "suite_config": {
+            "commonsuite": "hello"
+        },
+        "case_config": {
+            "CASE_01": {
+                "common_case": "xin chao"
+            }
+        }
+    },
+    "by_env": {
+        "dev": {
+            "suite_config": {
+              
+            },
+            "case_config": {
+                "CASE_01": {
+                    "env_case_config": "env case config value"
+                }
+            }
+        },
+        "staging": {
+            "suite_config": {},
+            "case_config": {}
+        },
+        "production": {
+            "suite_config": {
+                 
+            },
+            "case_config": {}
+        }
+    }
+}

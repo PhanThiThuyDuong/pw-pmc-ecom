@@ -1,0 +1,1 @@
+export const productPrefix = 'PRODUCT_AUTO_';

@@ -1,0 +1,40 @@
+{
+    "common": {
+        "suite_config": {
+            "commonsuite": "hello"
+        },
+        "case_config": {
+            "HOME_01": {
+                "title_case": "E-commerce site for automation testing – E-commerce site for automation testing",
+                "heading": "E-commerce site for automation testing",
+                "number": 3
+            }
+        }
+    },
+    "by_env": {
+        "dev": {
+            "suite_config": {},
+            "case_config": {
+                "HOME_01": {
+                    "title_case": "E-commerce site for automation testing – E-commerce site for automation testing",
+                    "heading": "E-commerce site for automation testing",
+                    "number": 9
+                }
+            }
+        },
+        "staging": {
+            "suite_config": {},
+            "case_config": {}
+        },
+        "production": {
+            "suite_config": {},
+            "case_config": {
+                "HOME_01": {
+                    "title_case": "Automation test site – Automation test site",
+                    "heading": "Automation test site",
+                    "number": 4
+                }
+            }
+        }
+    }
+}
